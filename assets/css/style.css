@@ -1,0 +1,90 @@
+    body{
+    background: rgb(121, 214, 214);
+    background-size:100% auto;
+    width: 100%;
+    height: 100%;
+    }
+    img{
+    height: 150px;
+    width: 150px;    
+    }
+    .header {
+    font-family: fantasy;
+    background-color: rgb(0, 0, 0);
+    color: rgb(121, 214, 214);
+    text-align: center;
+    border-bottom: 5px solid #e2df24;
+    border-top: 5px solid #e2df24;
+    padding: 10px;
+    }
+    .container {
+    width: 50%;
+    background-color: rgb(0, 0, 0);    
+    color: #e2df24;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    opacity: 0.8;
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+    #containerScore {
+    width: 50%;
+    background-color: rgb(0, 0, 0);    
+    color: #e2df24;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+    #totalScore, #computerNumber{
+    color: white;
+    font-size: 20px;
+    }
+    .col-md-12 {
+    margin: auto;
+    }
+    .populate {
+    background-color: #000000;
+    width: 50%;
+    margin: auto;
+    }
+    #lettersUsed,
+    #guessesRemaining,
+    #wins,
+    #losses{
+    color: white;
+    font-size: 20px;
+    }
+    #lossesTitle{
+    color: red;
+    }
+    #winsTitle{
+    color: green;
+    }
+    h1 {
+    font-size: 70px;
+    font-weight: bold; 
+    }
+    h2{
+    font-size: 18px;
+    color: e2df24;
+    }
+    h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: e2df24;
+    }
+    .info {
+    font-size: 24px;
+    color: e2df24;
+    }
+    @media only screen and (max-width: 700px) {
+    .container, #containerScore{
+        width:80%;
+    }
+}
