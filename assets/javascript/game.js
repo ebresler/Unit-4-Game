@@ -16,12 +16,7 @@ console.log(randomComputerNumber)
 
 //create reset function 
 
-//have random number generate to each crystal
-var randomBlueNumber = crystalNumber[Math.floor(Math.random() * crystalNumber.length)];
-console.log(randomBlueNumber)
-
-var randomBlueNumber = crystalNumber[Math.floor(Math.random() * crystalNumber.length)];
-console.log(randomBlueNumber)
+//
 
 
 //have number from crystal show in user-score section
