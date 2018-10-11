@@ -50,13 +50,13 @@ function crystalClick() {
     counter += parseInt($(this).attr("value"));
     $("#totalScore").html(counter);
     if (counter == targetNumber) {
+        wins++; 
         alert("You win!");
         totalReset();
-        wins++; 
     }
     else if (counter > targetNumber) {
+        losses++;
         alert("you lose!");
         totalReset();
-        losses++;
     };
 };
