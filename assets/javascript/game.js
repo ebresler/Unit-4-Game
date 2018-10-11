@@ -25,6 +25,7 @@ function resetCrystals() {
 
 function resetHTML() {
     $("#computerNumber").html(targetNumber);
+    $("#totalScore").html("0");
     $("#wins").html(wins);
     $("#losses").html(losses);
     $(".totalScore").html(counter);
@@ -34,7 +35,6 @@ function resetHTML() {
 function totalReset() {
     randomTargetNumber();
     counter = 0;
-    $("#totalScore").html("0");
     resetHTML();
     resetCrystals();
 }
@@ -61,8 +61,6 @@ function crystalClick() {
     };
 };
 
-// //Throughout life cycle of the document, accounting for every single time document is dynamically changed execute crystalClick function
-// $(document).on("click", ".crystal", crystalClick);
 
 
 
