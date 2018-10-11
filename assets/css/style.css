@@ -1,5 +1,5 @@
     body{
-    background: rgb(121, 214, 214);
+    background-image: url(../images/animal-avian-bird-875858.jpg);
     background-size:100% auto;
     width: 100%;
     height: 100%;
@@ -9,9 +9,10 @@
     width: 150px;    
     }
     .header {
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(0, 0, 0);
-    color: rgb(121, 214, 214);
+    opacity: 0.5;
+    color: white;
     text-align: center;
     border-bottom: 5px solid #e2df24;
     border-top: 5px solid #e2df24;
@@ -19,37 +20,41 @@
     }
     .container {
     width: 50%;
-    background-color: rgb(0, 0, 0);    
-    color: #e2df24;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;    
+    color: black;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 20px;
     text-align: left;
-    opacity: 0.8;
+    opacity: 0.7;
     padding-left: 3%;
     padding-right: 3%;
     }
     #containerScore {
     width: 50%;
-    background-color: rgb(0, 0, 0);    
-    color: #e2df24;
+    background-color:white;    
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 20px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.7;
     padding-left: 3%;
     padding-right: 3%;
     }
     #totalScore, #computerNumber{
-    color: white;
+    color: black;
     font-size: 20px;
     }
     .col-md-12 {
     margin: auto;
     }
     .populate {
-    background-color: #000000;
+    background-color: white;
     width: 50%;
     margin: auto;
     }
@@ -57,7 +62,7 @@
     #guessesRemaining,
     #wins,
     #losses{
-    color: white;
+    color: black;
     font-size: 20px;
     }
     #lossesTitle{
